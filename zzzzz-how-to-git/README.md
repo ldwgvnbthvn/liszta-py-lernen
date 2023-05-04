@@ -4,4 +4,4 @@
 [Customize README](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-readmes)  
   
 Tips:  
-to make new line, add two spaces at the back to change new line
+to make new line, add two spaces ("  ") at the back to change new line or add this at the end "<br />".
