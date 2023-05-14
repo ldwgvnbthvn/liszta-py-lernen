@@ -36,7 +36,7 @@ because I don't define the separator and the default is a space.
 A = 1
 B = 2
 C = 3
-print(A, B, C, sep="-", end="0")
+print(A, B, C, sep="--", end="0")
 """
->>>1-2-30
+>>>1--2--30
 """
