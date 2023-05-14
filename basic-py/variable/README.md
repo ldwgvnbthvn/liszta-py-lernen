@@ -37,10 +37,11 @@ Example: `3.14j, 25j, 5231+0j, 34.353-23j, 4e23+13j, 4.24e+3j`
 ## STRING
 String is a set of characters, ANY characters. String is written between single or double quotation marks. (personally, I prefer using double, even though I need to press shift)  
 Example:  
+```
 A = "Hey hey heyyy"
 B = 'said Bokuto'
 C = "@%$&#^%$!!!"
-
+```
 **How to know the type of a variable**  
 Use `type()` function.  
 ```
