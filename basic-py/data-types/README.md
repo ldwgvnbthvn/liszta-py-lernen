@@ -52,3 +52,9 @@ Still not sure about ```bytes```, ```bytearray```, and ```memoryview```. Will co
 
 ```NoneType``` = object that indicates no value
 
+
+
+References to learn more:
+
+https://www.w3schools.com/python/python_datatypes.asp <br/>
+https://www.geeksforgeeks.org/python-data-types/
