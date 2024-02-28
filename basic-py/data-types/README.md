@@ -20,7 +20,7 @@
 
 ```range``` = series of sequential integers begins from 0, with increments of 1, for example: 0, 1, 2, 3, ... 
 
-```list```, ```tuple```, ```set```, ```frozenset```, and ```dict``` needs a page to explain the differences between them.
+```list```, ```tuple```, ```set```, ```frozenset```, and ```dict``` needs a different page to explain the differences between them. This will be in data structure section.
 
 ```bool``` = boolean, only True or False (with capital T and F)
 
