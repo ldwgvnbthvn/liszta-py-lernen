@@ -20,11 +20,52 @@
 |```+```|- Combine 2 or more lists into 1 list|```all_list = A_list + B_list + C_list```|
 |```count()```|- Count how many specified item|```K = name_list.count('Kevin')<br/>N = grade_list.count(7)```|
 |```index()```|- Returns index value of specified item<br/>- If there are 2 or more of the same items, the index will be only the first one in the list|```name_list = ['Kevin', 'Arlo', 'Kevin']```<br/>```x = name_list.index('Kevin')```<br/>```x``` will be 0, not 2|
-|```sort()```| - Sort in ascending (from small to big, beginning to end) order. The list needs to contain only numbers (including floats) or only strings (not brass and woodwind)|```my_list.sort()```|
+|```sort()```| - Sort in ascending (from small to big, beginning to end) order. The list needs to contain only numbers (including floats) or only strings (not brass and woodwind), otherwise it won't work|```my_list.sort()```|
 |```reverse()```|- Sort in descending order. (reverse order of ```sort()```)|```my_list.reverse()```|
-<br/>
+
 ## Combinations between conditionals and loops with LIST
-*work in progress
+Let's learn by examples. <br/>
+```python
+num_list = [1,3,5,7,9]
+char_list = ["a","b","c","d","e","f"]
+
+for water_7 in num_list:
+    print("aye")
+
+# the water_7 and franky after for can be any name* 
+# *name that still follows variable name rules
+
+for franky in char_list:
+    print(franky)
+
+if 1 in char_list:
+    print("Cola")
+else:
+    print("Tea")
+    
+if 'Robin' in char_list:
+    print('Cola')
+else:
+    print('Tea')
+```
+The output will be: <br/>
+```
+aye
+aye
+aye
+aye
+aye
+Luffy
+Zoro
+Nami
+Usopp
+Sanji
+Chopper
+Robin
+Tea
+Cola
+```
+
 
 
 
