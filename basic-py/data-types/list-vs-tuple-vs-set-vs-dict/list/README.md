@@ -24,6 +24,7 @@
 |```reverse()```|- Sort in descending order. (reverse order of ```sort()```)|```my_list.reverse()```|
 <br/>
 ## Combinations between conditionals and loops with LIST
+*work in progress
 
 
 
