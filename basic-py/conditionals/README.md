@@ -36,6 +36,9 @@ Before jumping into those conditionals, here are some **anti-syntax-frustration 
 
 ## If Statement
 If this condition is true, do something.<br/>
+
+## If-Else Statement
+If A condition is NOT true, try B condition first. 
 ```python
 #Type your answer here.
 name= input('Please input your name')
@@ -45,8 +48,6 @@ else:
     print('Good Morning ',name)
 ```
 
-## If-Else Statement
-If A condition is NOT true, try B condition first. 
 ## If-Elif-Else Statement
 If A condition is NOT true, try B condition. If still not true, try C conditions, etc. Elif statements can be stacked.
 ## Nested If Statement
