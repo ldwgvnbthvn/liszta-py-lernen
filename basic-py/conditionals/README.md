@@ -39,7 +39,7 @@ If this condition is true, do something. If this condition is not true, do nothi
 ```python
 k = 20
 if k > 22:
-    print('Oh no I'm getting old)
+    print('Oh no I'm getting old')
 print('They said age is only number')
 ```
 
