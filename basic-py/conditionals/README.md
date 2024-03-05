@@ -33,6 +33,12 @@ Before jumping into those conditionals, here are some **anti-syntax-frustration 
 - Put `:` after putting your conditions. The `:` has meaning that this line has some "operations" inside. 
 - Don't forget to put tab before the actions after the conditional. These tabbed lines are the "operations".
 - For condition "if something equals something" format, use `==` instead of `=`. These two are different. `=` is used to define a variable, while `==` literally means equal.
+- Conditionals can't be empty (no "operation"), but it can be passed to avoid error
+
+```python
+if  k > 24:
+    pass
+```
 
 ## If Statement
 If this condition is true, do something. If this condition is not true, do nothing and move on to the next thing.<br/>
