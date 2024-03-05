@@ -1,10 +1,6 @@
 # Loops
 Loops are the core of programming and what makes programming useful, because something can be iterated without a human doing it for every data.
 
-
-Tools neede for loops like range(), xrange() and such
-
-
 Kurzgesagt, there are **3 kinds of loops** in Py:
 - For loop
 - While loop
@@ -50,15 +46,16 @@ There is a more complete format: `range(x,y,z)`<br/>
 `x` is starting number, `y` is amount of numbers (before "incremented"), `z` is increment number. Even though the starting point is from `x`, this is just the start point for "incrementing", not `y`. When counting `y`, we count from 0 (so the upper limit for incrementing will be `y-1`)
 ```python
 for luffy in range(2,30,3):
-  print(luffy)
-for zoro in range(5,10,3):
+  print(luffy) # will be 2, 5, 8, ... , 29 (remember 30 is counted from 0)
+for zoro in range(5,10,3): # will be 5, 8
   print(zoro)
 ```
-
-
-
+<br/>
 In `for` loop, `range()` is used to specify how many times looping will be done. `range()` function returns a sequence of numbers (default: start from 0, increments by 1), and ends at specified number.
-
+```python
+for luffy in range(2,6):
+  print(luffy) # will be 2, 3, 4, 5 (remember 6 is counted from 0)
+```
 
 ### For with else
 It turns out that we can add `else` command too after the `for` loop, not only in `while` loop. With `else`, we can run some commands that only applies after the `for` loop is completely finished.
@@ -68,9 +65,6 @@ for luffy in range(6):
 else:
   print('DONE')
 ```
-
-
-
 
 ## While loop
 The `while` loop is used for executing a set of commands as long as a certain condition is still True.
@@ -88,7 +82,19 @@ Result:
 5
 ```
 <br/>
-`while` is conditional, so `else` can be added at the end to deal with situation when the condition is no longer true.  
+### While break and continue
+These are similar to the `for` loop.
+
+### While else
+`else` can be added at the end to deal with situation when the condition is no longer true.  
 
 ## Nested loop
-adsf
+Simply... nested loop is a loop inside a loop. The "inner" loop will be executed once for each interation of the "outer" loop. Let's start from nested `for` loop.
+```python
+# match every trait with each straw hat member
+trait = ['fearless','clever']
+mugiwara = ['Luffy','Zoro','Nami','Usopp','Sanji']
+for merry in trait:
+  for sunny in mugiwara:
+    print(merry, sunny)
+```
