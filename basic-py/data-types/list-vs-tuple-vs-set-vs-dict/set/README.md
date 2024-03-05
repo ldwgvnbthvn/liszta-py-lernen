@@ -27,6 +27,13 @@ will result `{False,True,'red','yellow','blue'}`
 |`copy()`|- Copy a set into other set (copy, not move)|`new_set = my_set.copy()`|
 |`difference()`|- Return a set that contains the items that only exist in set A and not in set B|Set A and B will be used as example for the next functions in the table.<br/>`A = {'apple','grape','lemon'}`<br/>`B = {'google','apple','microsoft'}`<br/>`Y = A.difference(B,C)`<br/>`Z = A.difference(B)`<br/> Result: `Z = {'grape','lemon'}` and `A` is still the same|
 |`difference_update()`|- Remove the item that exists in both set|`A.difference_update(B)`<br/>Result: `A = {'grape','lemon'}`|
+|`intersection()`|- Contain items that exists within all sets|`cut = x.intersection(A,B)`|
+|`intersection_update()`|- Remove the items that is not present in both sets|`A.intersection_update(B)`<br/>Result: `A = {'apple'}`|
+|`isdisjoint()`|- If there is no item htat exists in both sets, returns `True`|`Z = A.isdisjoint(B)`<br/>Result: `Z = False`|
+|`issubset()`|- If A is subset of B, returns True|`Z = A.issubset(B)`<br/>Result: `Z = True`|
+|`issuperset()`|- If A is superset of B (or B is subset of A), returns True|`Z = A.issuperset(B)`<br/>Result: `Z = True`|
+|`symmetric_difference()`|- Returns all items in both sets except items that present in both sets|`no_both = A.symmetric_difference(B)`<br/>Function: `no_both = {'grape','lemon','microsoft','google'}`|
+|`symmetric_difference_update()`|- Add items of other set into a set then remove items that are present in both sets|`A.symmetric_difference_update(B)`<br/>Result: `A = {'grape','lemon','microsoft', 'apple'}`|
 
 
 
