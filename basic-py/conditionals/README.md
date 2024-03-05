@@ -80,7 +80,7 @@ else:
 ```
 
 ## Nested If Statement
-This is different from elif statement. Nested if statement is like extra security doors that guests need to go through to meet the king 👑 and not every guest can be allowed to meet the king 👑. Only guest that meet all requirements can pass all the doors and meet the king 👑
+This is different from elif statement. Nested if statement is like extra security doors that guests need to go through to meet the king 👑 and not every guest can be allowed to meet the king 👑. Only guest that meet all **requirements/criterias** can pass all the doors and meet the king 👑
 ```python
 numbers = [1,3,4,6,7,8,9,12]
 
