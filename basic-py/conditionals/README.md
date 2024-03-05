@@ -39,7 +39,7 @@ If this condition is true, do something. If this condition is not true, do nothi
 ```python
 k = 20
 if k > 22:
-    print('Oh no I'm getting old')
+    print("Oh no I'm getting old")
 print('They said age is only number')
 ```
 
@@ -56,6 +56,7 @@ else:
 
 ## If-Elif-Else Statement
 If A condition is NOT true, try B condition. If still not true, try C conditions, etc. Elif statements can be stacked.<br/>
+Elif statement is like a prince going to a village and knocking on every villager's door to find a beautiful suitor (beautiful can also be from the inside💖). He had a certain standard for a beautiful suitor, so whenever he found a villager under his standard, he would knock another door. If he knocked the `else` door and he still didn't find any suitor that meet his standard... well maybe his soulmate is in another village/town.
 ```python
 char = 'Chopper'
 if char == 'Luffy':
@@ -73,7 +74,7 @@ else:
 ```
 
 ## Nested If Statement
-Nested if statement is like extra security doors that guests need to go through to meet the king 👑 and not every guest can be allowed to meet the king 👑. Only guest that meet all requirements can pass all the doors and meet the king 👑
+This is different from elif statement. Nested if statement is like extra security doors that guests need to go through to meet the king 👑 and not every guest can be allowed to meet the king 👑. Only guest that meet all requirements can pass all the doors and meet the king 👑
 ```python
 numbers = [1,3,4,6,7,8,9,12]
 
