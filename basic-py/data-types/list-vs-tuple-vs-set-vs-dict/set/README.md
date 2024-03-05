@@ -22,5 +22,6 @@ will result `{False,True,'red','yellow','blue'}`
 |`clear()`|- Make the set empty|`my_set.clear()`|
 |`del`|- Delete the entire set|`del my_set`|
 |`union()`|- Join two sets (not violin one) into 1 new set (won't include duplicates)|`c = setA.union(setB)`<br/>`all_set = setA.union(setB, setC)`|
+|`update()`|- Modify 1 set to include all items from both sets (can't be assigned to other set)|`set_A.update(set_B)` (set_A will be updated with itemms from `set_B`<br/> Meanwhile, for `new_set = set_A.update(set_B)`, `new_set` will contain `None` and `set_A` will contain `set_A + set_B`|
 
 
