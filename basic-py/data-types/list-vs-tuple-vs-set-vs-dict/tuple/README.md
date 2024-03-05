@@ -2,6 +2,21 @@
 - Immutable (CANNOT be changed after creation)
 - Duplicates are allowed
 - Ordered (has index)
+
+I found this:<br/>
+```python
+my_tuple = ('Luffy','Nami','Franky','Robin','Sanji')
+# For printing all members of the tuple
+print(my_tuple[:])
+# For selecting the 3rd index ([2]), and take the the 5th ([4]) character of the string
+print(my_tuple[2][4])
+```
+Result: <br/>
+```
+('Luffy', 'Nami', 'Franky', 'Robin', 'Sanji')
+k
+```
+
 ## Functions for TUPLE
 |Functions|Descriptions|Examples|
 |---|---|---|
