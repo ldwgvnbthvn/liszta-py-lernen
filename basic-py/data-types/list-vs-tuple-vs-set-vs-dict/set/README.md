@@ -17,4 +17,10 @@ will result `{False,True,'red','yellow','blue'}`
 |`add()`|- Add an item to the set (**only 1 item**)|`my_set.update(['a'])`<br/>`my_set.update('a'.'b')` won't work|
 |`update()`| - Add **multiple** items to the set<br/> - Can add items from other set or other type of collection|`my_set.update(['a','b'])`<br/>`my_set.update('a','b')`<br/>`my_set.update(my_list)`|
 |`len()`|- Count number of items|`len(my_list)`|
+|`remove()`|- Remove **only 1 item** from set (if item doesn't exist, will raise error)|`my_set.remove('b')`|
+|`discard()`|- Remove **only 1 item** from set (if item doesn't exist, **won't** raise error)|`my_set.discard('b')`|
+|`clear()`|- Make the set empty|`my_set.clear()`|
+|`del`|- Delete the entire set|`del my_set`|
+|`union()`|- Join two sets (not violin one) into 1 new set (won't include duplicates)|`c = setA.union(setB)`<br/>`all_set = setA.union(setB, setC)`|
+
 
