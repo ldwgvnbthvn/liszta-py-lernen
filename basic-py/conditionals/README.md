@@ -35,7 +35,13 @@ Before jumping into those conditionals, here are some **anti-syntax-frustration 
 - For condition "if something equals something" format, use `==` instead of `=`. These two are different. `=` is used to define a variable, while `==` literally means equal.
 
 ## If Statement
-If this condition is true, do something.<br/>
+If this condition is true, do something. If this condition is not true, do nothing and move on to the next thing.<br/>
+```python
+k = 20
+if k > 22:
+    print('Oh no I'm getting old)
+print('They said age is only number')
+```
 
 ## If-Else Statement
 If A condition is NOT true, try B condition first. 
@@ -49,8 +55,36 @@ else:
 ```
 
 ## If-Elif-Else Statement
-If A condition is NOT true, try B condition. If still not true, try C conditions, etc. Elif statements can be stacked.
+If A condition is NOT true, try B condition. If still not true, try C conditions, etc. Elif statements can be stacked.<br/>
+```python
+char = 'Chopper'
+if char == 'Luffy':
+    print('gomu')
+elif char == 'Usopp':
+    print('sogeking')
+elif char == 'Zoro':
+    print('onigiri')
+elif char == 'Robin':
+    print('fleur')
+elif char == 'Franky':
+    print('Cola')
+else:
+    print('rumble')
+```
+
 ## Nested If Statement
-asdf
+Nested if statement is like extra security doors that guests need to go through to meet the king 👑 and not every guest can be allowed to meet the king 👑. Only guest that meet all requirements can pass all the doors and meet the king 👑
+```python
+numbers = [1,3,4,6,7,8,9,12]
+
+# Make for loop
+for luffy in numbers:
+    # Condition 1: is the number is odd?
+    if luffy%2 != 0:
+        # Condition 2: is the number a multiple of 3?
+        if luffy%3 == 0:
+            print(luffy, 'is an odd number and a multiple of 3')
+# Long live king of pirates
+```
 
  
