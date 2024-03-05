@@ -25,9 +25,10 @@ my_dict = {'color':'red','color':'yellow'}
 ```
 `'color'` will only have one value. The last value of the same key will be used. So, `'color' = 'yellow'`
 ## How to add/replace a value of a certain key
-This is how:
+This is how:<br/>
 `my_dict['color'] = 'red'`<br/>
-Well...so I tried adding more than one keys and values at the same time.
+<br/>
+Well...so I tried adding more than one keys and values at the same time.<br/>
 `my_dict['color','shape'] = 'yellow','circle'`<br/>
 It turns out that `'color','shape'` will be considered as one "tuple" key and `'yellow','circle'` will be considered as one "tuple" value.<br/>
 The results: `my_dict = {('color','shape'):('yellow','circle')}`
