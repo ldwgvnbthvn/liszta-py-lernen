@@ -86,14 +86,13 @@ These are similar to the `for` loop.
 ### While else
 `else` can be added at the end to deal with situation when the condition is no longer true.  
 ```python
-chopper = 1
-while chopper < 6:
-  print(x)
-  i += = 1
+straw_hats = 9
+while straw_hats > 0:
+  print('Remaining straw hats member in Sabaody: ', straw_hats)
+  straw_hats -= 1
 else:
-  print('chopper is no longer less than 6')
+  print('Kuma sends them all! :(')
 ```
-
 
 ## Nested loop
 Simply... nested loop is a loop inside a loop. The "inner" loop will be executed once for each interation of the "outer" loop. Let's start from nested `for` loop.
