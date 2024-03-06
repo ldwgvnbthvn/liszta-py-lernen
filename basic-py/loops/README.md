@@ -50,7 +50,6 @@ for luffy in range(2,30,3):
 for zoro in range(5,10,3): # will be 5, 8
   print(zoro)
 ```
-<br/>
 In `for` loop, `range()` is used to specify how many times looping will be done. `range()` function returns a sequence of numbers (default: start from 0, increments by 1), and ends at specified number.
 ```python
 for luffy in range(2,6):
@@ -81,12 +80,20 @@ Result:
 3
 5
 ```
-<br/>
 ### While break and continue
 These are similar to the `for` loop.
 
 ### While else
 `else` can be added at the end to deal with situation when the condition is no longer true.  
+```python
+chopper = 1
+while chopper < 6:
+  print(x)
+  i += = 1
+else:
+  print('chopper is no longer less than 6')
+```
+
 
 ## Nested loop
 Simply... nested loop is a loop inside a loop. The "inner" loop will be executed once for each interation of the "outer" loop. Let's start from nested `for` loop.
