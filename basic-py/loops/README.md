@@ -1,5 +1,5 @@
 # Loops
-Loops are the core of programming and what makes programming useful, because something can be iterated without a human doing it for every data.
+Loops are the core of programming and what makes programming useful, because something can be iterated without a human doing it for every data. 🥲
 
 Kurzgesagt, there are **3 kinds of loops** in Py:
 - For loop
